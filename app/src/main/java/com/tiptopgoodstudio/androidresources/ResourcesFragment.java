@@ -1,6 +1,5 @@
 package com.tiptopgoodstudio.androidresources;
 
-import android.arch.lifecycle.LiveData;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -136,7 +135,10 @@ public class ResourcesFragment extends Fragment
 
 
     /**
-     * This method will make a call to the openWebPage method to display the resource
+     * This method will be called when the resource item is clicked
+     * This method creates an Implicit Intent to open the url in a browser app
+     *
+     * Added by Divya on 3/24/2018.
      */
     @Override
     public void onResourceItemClick(String url) {

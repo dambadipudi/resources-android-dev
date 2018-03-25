@@ -8,7 +8,7 @@
   This page is the layout for an item. A list of such items is displayed as a recycler view in
   fragment_resources.xml
 
-  Added by Divya on 3/24/20he resource URL hidden textview
+  Added the resource URL hidden TextView (by Divya on 3/24/2018)
  -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"

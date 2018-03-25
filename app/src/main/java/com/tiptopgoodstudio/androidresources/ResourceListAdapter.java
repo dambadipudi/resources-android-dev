@@ -5,11 +5,12 @@ package com.tiptopgoodstudio.androidresources; /**
  *
  * This class creates the adapter for the items in the Recycler View
  *
- * Added List<Resource> member variable to hold the mock Resource items, by Divya on 3/24/2018
- * Updated the onBindViewHolder method to display all data from the Resource item list, by Divya on 3/24/2018
+ * The following added by Divya on 3/24/2018
+ * Changed the String array to List<Resource> to hold the mock Resource items
+ * Updated the onBindViewHolder method to display all data from the Resource item list
+ * Added an onClickListener to the resource item
  */
 
-import android.arch.lifecycle.LiveData;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
