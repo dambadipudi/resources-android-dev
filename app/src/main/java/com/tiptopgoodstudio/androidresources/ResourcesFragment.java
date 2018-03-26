@@ -150,7 +150,7 @@ public class ResourcesFragment extends Fragment
 
         Intent webpageIntent = new Intent(Intent.ACTION_VIEW, webpage);
 
-        if(webpageIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+        if (webpageIntent.resolveActivity(getActivity().getPackageManager()) != null) {
             startActivity(webpageIntent);
         }
     }
