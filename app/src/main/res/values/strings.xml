@@ -23,7 +23,10 @@
 
     <string name="error_message">Some error occured. Please try again!</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Strings used in activity_launch.xml (Added by Divya on 4/20/2018) -->
 
+    <string name="loading_message">Loading resources ...</string>
+
+    <string name="loading_error_message">Sorry, could not load resources. Please check network connection and try again!</string>
 
 </resources>
